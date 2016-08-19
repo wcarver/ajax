@@ -1,7 +1,7 @@
 class FeedsController < ApplicationController
   before_action :require_logged_in!
 
-  LIMIT = 20
+  LIMIT = 8
 
   def show
     @feed_tweets =
